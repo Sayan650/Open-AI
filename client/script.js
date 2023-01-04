@@ -90,7 +90,7 @@ const handleSubmit = async (e) => {
   })
 
   clearInterval(loadInterval);
-  messegeDiv.innerHTML = '';
+  messegeDiv.innerHTML = "";
 
   if(response.ok) {
     const data = await response.json();
